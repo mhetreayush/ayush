@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+.title{
+    display: block;
+    width: 100%;
+    position: fixed;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #443c4c;
+    margin-bottom: 1rem;
+    box-shadow: 2px 4px 2px #2c2a2e;
+}
+
+.name{
+    padding-left: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: none;
+}
+.name:hover{
+    color: #ca443b;
+    text-decoration: underline dotted white 10%;
+}
+
+.navContent{
+    display: flex;
+    justify-content: end;
+    padding-right: 7rem;
+}
+
+.navContent a{
+    
+    text-shadow: 3px 3px 3px black;
+    font-weight: 400;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+    align-self: center;
+}
+
+.navContent a:hover{
+    text-decoration: underline dotted white 10%;
+    color: #ca443b;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.content{
+    display: block;
+    padding: 9.7% 1rem;
+    text-align: left;
+}
+
+.aboutName{
+    font-weight: 800;
+    color: #ca443b;
+    font-size: 5rem;
+}
+
+.content p{
+    color: #f3e0c8;
+    font-size: 1.5rem;
+}
+
+.prof{
+display: flex;
+justify-content: center;
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+}
+#profilePic{
+    height: 80vh;
+}
+
+#i{
+    font-family: 'Gideon Roman', cursive;
+    font-size: 15rem;
+    text-align: left;
+}
+.info{
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+
+
+#contactMe {
+    background-color: #f3e0c8;
+    color: gray;
+    padding: 3%;
+    font-family: "Montserrat";
+    font-weight: 200;
+    text-align: center;
+    line-height: 3;
+}
+
+.socials {
+    filter: invert(10%);
+    padding: 0 0.5rem;
+}
+
+#contactMe h3{
+    opacity: 90%;
+    font-size: 1.5rem;
+}
+#contactMe h6{
+    opacity: 60%;
+    padding-bottom: 0.3rem;
+}
+
+.data{
+    padding-top: 10rem;
+    
+}
+
+.left{
+    padding-left: 5rem;
+}
+.right{
+    padding-right: 5rem;
+}
+
+.otherIllustrations{
+    padding-top:1rem;
+    height: 75vh;
+}
