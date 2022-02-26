@@ -102,9 +102,17 @@ justify-content: center;
     line-height: 3;
 }
 
-.socials {
-    filter: invert(10%);
-    padding: 0 0.5rem;
+.btn {
+    /* filter: invert(70%); */
+    color: #443c4c;
+    background-color: #f3e0c8;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0.5rem 0 0.5rem;
+}
+
+.btn:hover{
+    color: #f3e0c8;
+    background-color: #443c4c;
 }
 
 #contactMe h3{
