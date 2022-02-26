@@ -183,11 +183,13 @@ justify-content: center;
     
     #contactMe h3{
         opacity: 90%;
-        font-size: 0.6rem;
+        font-size: 5vw;
     }
     #contactMe h6{
         opacity: 60%;
-        padding-bottom: 0.3vw;
+        font-size: 2.7vw;
+        padding-bottom: 1vh;
+        padding-top: 0;
     }
     
 }
