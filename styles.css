@@ -24,7 +24,6 @@ body{
 }
 .name:hover{
     color: #ca443b;
-    text-decoration: underline dotted white 10%;
 }
 
 .navContent{
@@ -45,7 +44,6 @@ body{
 }
 
 .navContent a:hover{
-    text-decoration: underline dotted white 10%;
     color: #ca443b;
     font-size: 2rem;
     font-weight: bold;
