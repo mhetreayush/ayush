@@ -15,8 +15,8 @@ body{
 }
 
 .name{
-    padding-left: 2.5rem;
-    font-size: 3rem;
+    padding-left: 2.5vw;
+    font-size: 4vh;
     font-weight: 700;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -29,15 +29,15 @@ body{
 .navContent{
     display: flex;
     justify-content: end;
-    padding-right: 7rem;
+    padding-right: 3vw;
 }
 
 .navContent a{
     
     text-shadow: 3px 3px 3px black;
     font-weight: 400;
-    padding-left: 1rem;
-    font-size: 1.5rem;
+    padding-left: 1vw;
+    font-size: 2.3vh;
     text-decoration: none;
     color: aliceblue;
     align-self: center;
@@ -45,26 +45,27 @@ body{
 
 .navContent a:hover{
     color: #ca443b;
-    font-size: 2rem;
+    font-size: 5vh;
     font-weight: bold;
     text-shadow: none;
 }
 
 .content{
     display: block;
-    padding: 9.7% 1rem;
+    padding: 17vh 1rem;
     text-align: left;
 }
 
 .aboutName{
     font-weight: 800;
     color: #ca443b;
-    font-size: 5rem;
+    font-size: 7vh;
+    width: 100%;
 }
 
 .content p{
     color: #f3e0c8;
-    font-size: 1.2rem;
+    font-size: 3vh;
 }
 
 .prof{
@@ -125,18 +126,68 @@ justify-content: center;
 }
 
 .data{
-    padding-top: 4.5rem;
+    padding-top: 4.5vh;
     
 }
 
-.left{
-    padding-left: 5rem;
-}
-.right{
-    padding-right: 5rem;
-}
 
 .otherIllustrations{
     padding-top:1rem;
     height: 75vh;
+}
+
+.toggleBar{
+    display: none;
+}
+.phone{
+    display: none;
+}
+@media (max-width: 770px) {
+    .aboutName{
+        font-size: 10vw;
+    }
+    .navContent{
+        display: none;
+    }
+    .toggleBar{
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        display: block;
+    }
+
+    .toggleBar svg{
+        width: 4vh;
+        fill: white;
+    }
+    .content{
+        padding: 0 1vw;
+    }
+    .otherIllustrations{
+        height: 100%;
+    }
+    #profilePic{
+        width: 30vh; 
+        padding: 0;
+        margin: 0;
+    }
+    .phone{
+        display: block;
+    }
+    .pc{
+        display: none;
+    }
+    .content{
+        padding-top: 10vh;
+    }
+    
+    #contactMe h3{
+        opacity: 90%;
+        font-size: 0.6rem;
+    }
+    #contactMe h6{
+        opacity: 60%;
+        padding-bottom: 0.3vw;
+    }
+    
 }
