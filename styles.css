@@ -191,5 +191,10 @@ justify-content: center;
         padding-bottom: 1vh;
         padding-top: 0;
     }
+
+    #contactMe h4{
+        font-size:2.5vh;
+        padding-bottom: 0.5vh;
+    }
     
 }
