@@ -189,7 +189,7 @@ justify-content: center;
     }
     #toggleBar{
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 80%;
         display: block;
         background-color: #ca443b;
@@ -197,8 +197,10 @@ justify-content: center;
     }
 
     #toggleBar svg{
-        width: 4vh;
+        position: relative;
+        width: 5vh;
         fill: white;
+        
     }
     .content{
         padding: 0 1vw;
@@ -241,6 +243,8 @@ justify-content: center;
         display: none;
         position: fixed;
         background-color: #443c4c;
+        top: 0.3rem;
+        left: -0.8rem;
         height: 8vh;
         padding: 0;
         margin: 0;
@@ -250,7 +254,7 @@ justify-content: center;
         text-decoration: none;
         color: white;
         padding-left: 1.5rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 800;
     }
     #toggleBarContent a:hover{
@@ -258,20 +262,22 @@ justify-content: center;
     }
     #toggleBarContent p{
         position: fixed;
-        top: -1rem;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     #hideNav{
         position: absolute;
         top: 15%;
-        left: 80%;
+        left: 85%;
         display: block;
         background-color: #ca443b;
-        border-radius: 3vw 0;
+        border-radius: 0 3vw;
     }
 
     #hideNav svg{
-        width: 3vh;
+        height: 6vh;
+        width: 5vh;
         fill: white;
     }
     
