@@ -147,8 +147,6 @@ justify-content: center;
     display: none;
 }
 @media (max-width: 770px) {
-    body, html}
-    margin: 0;
     .aboutName{
         font-size: 10vw;
     }
