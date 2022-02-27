@@ -263,10 +263,10 @@ justify-content: center;
 
     #hideNav{
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: 80%;
         display: block;
-        background-color: transparent;
+        background-color: #ca443b;
         border-radius: 3vw 0;
     }
 
