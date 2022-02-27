@@ -67,7 +67,12 @@ body{
     color: #f3e0c8;
     font-size: 3vh;
 }
-
+.content h3{
+    color: #f3e0c8;
+    font-size: 4vh;
+    font-weight: 800;
+    padding-top: 0.7rem;
+}
 .prof{
 display: flex;
 justify-content: center;
