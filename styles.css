@@ -126,10 +126,9 @@ justify-content: center;
 }
 
 .data{
-    padding-top: 4.5vh;
+    padding-top: 5vh;
     
 }
-
 
 .otherIllustrations{
     padding-top:1rem;
@@ -146,9 +145,19 @@ justify-content: center;
 #toggleBarContent{
     display: none;
 }
+
+#hideNav{
+    display: none;
+}
+.toggleBarPcHide{
+    display: none;
+}
 @media (max-width: 770px) {
     .aboutName{
         font-size: 10vw;
+    }
+    .toggleBarPcHide{
+        display:block;
     }
     .navContent{
         display: none;
