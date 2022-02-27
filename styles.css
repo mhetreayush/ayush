@@ -136,27 +136,35 @@ justify-content: center;
     height: 75vh;
 }
 
-.toggleBar{
+#toggleBar{
     display: none;
 }
 .phone{
     display: none;
 }
+
+#toggleBarContent{
+    display: none;
+}
 @media (max-width: 770px) {
+    body, html}
+    margin: 0;
     .aboutName{
         font-size: 10vw;
     }
     .navContent{
         display: none;
     }
-    .toggleBar{
+    #toggleBar{
         position: absolute;
         top: 30%;
         left: 80%;
         display: block;
+        background-color: transparent;
+        border-radius: 3vw 0;
     }
 
-    .toggleBar svg{
+    #toggleBar svg{
         width: 4vh;
         fill: white;
     }
@@ -197,4 +205,41 @@ justify-content: center;
         padding-bottom: 0.5vh;
     }
     
+    #toggleBarContent{
+        display: none;
+        position: fixed;
+        background-color: #443c4c;
+        height: 8vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    #toggleBarContent a{
+        text-decoration: none;
+        color: white;
+        padding-left: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    #toggleBarContent a:hover{
+        color: #ca443b;
+    }
+    #toggleBarContent p{
+        position: fixed;
+        top: -1rem;
+    }
+
+    #hideNav{
+        position: absolute;
+        top: 20%;
+        left: 80%;
+        display: block;
+        background-color: transparent;
+        border-radius: 3vw 0;
+    }
+
+    #hideNav svg{
+        width: 3vh;
+        fill: white;
+    }
 }
