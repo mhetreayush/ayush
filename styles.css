@@ -4,6 +4,11 @@ body{
     font-family: "Montserrat";
     overflow-x: hidden;
 }
+
+hr{
+    position: relative;
+    z-index: -1;
+}
 .title{
     display: block;
     width: 100%;
@@ -73,6 +78,14 @@ body{
     font-weight: 800;
     padding-top: 0.7rem;
 }
+
+.content h6{
+    color: #ca443b;
+    font-size: 3.4vh;
+    font-weight: 800;
+    padding-top: 0.2rem;
+}
+
 .prof{
 display: flex;
 justify-content: center;
@@ -157,6 +170,13 @@ justify-content: center;
 .toggleBarPcHide{
     display: none;
 }
+.externalLink{
+    fill: white;
+    height: 4vh;
+    padding-bottom: 0.3rem;
+
+}
+
 @media (max-width: 770px) {
     .aboutName{
         font-size: 10vw;
@@ -172,7 +192,7 @@ justify-content: center;
         top: 30%;
         left: 80%;
         display: block;
-        background-color: transparent;
+        background-color: #ca443b;
         border-radius: 3vw 0;
     }
 
@@ -254,4 +274,17 @@ justify-content: center;
         width: 3vh;
         fill: white;
     }
+    
+    .content h3{
+        font-size: 3.3vh;
+        padding-top: 0.7rem;
+    }
+    
+    .content h6{
+        color: #ca443b;
+        font-size: 2.4vh;
+        font-weight: 800;
+        padding-top: 0.2rem;
+    }
+
 }
