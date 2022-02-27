@@ -126,7 +126,7 @@ justify-content: center;
 }
 
 .data{
-    padding-top: 5vh;
+    padding-top:5vh;
     
 }
 
@@ -183,8 +183,8 @@ justify-content: center;
     }
     #profilePic{
         width: 30vh; 
-        padding: 0;
-        margin: 0;
+        padding: 1vh;
+        margin: 2vh 0 4vh 0;
     }
     .phone{
         display: block;
