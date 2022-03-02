@@ -57,7 +57,8 @@ hr{
 
 .content{
     display: block;
-    padding: 17vh 1rem;
+    padding-top: 17vh;
+    margin: 0 2.75vw 0 2.75vw;
     text-align: left;
 }
 
