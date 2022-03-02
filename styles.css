@@ -203,6 +203,7 @@ justify-content: center;
         
     }
     .content{
+        margin: 0 5vw 0 3vw;
         padding: 0 1vw;
     }
     .otherIllustrations{
