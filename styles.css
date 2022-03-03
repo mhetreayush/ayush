@@ -57,7 +57,7 @@ hr{
 
 .content{
     display: block;
-    padding-top: 17vh;
+    padding-top: 18vh;
     margin: 0 2.75vw 0 2.75vw;
     text-align: left;
 }
@@ -151,7 +151,7 @@ justify-content: center;
 
 .otherIllustrations{
     padding-top:1rem;
-    height: 75vh;
+    height: 70vh;
 }
 
 #toggleBar{
