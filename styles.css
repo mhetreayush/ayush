@@ -311,5 +311,8 @@ justify-content: center;
     h3{
         line-height: 1;
     }
+    #achievements img{
+        width: 100%;
+    } 
 
 }
