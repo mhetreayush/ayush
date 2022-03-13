@@ -180,6 +180,18 @@ justify-content: center;
 
 }
 
+
+#achievements img{
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+#achievements h6,h3{
+    line-height: 0.5;
+}
+#achievements h6{
+    text-decoration: underline solid #ca443b;
+}
 @media (max-width: 770px) {
     .aboutName{
         font-size: 10vw;
@@ -295,6 +307,9 @@ justify-content: center;
         font-size: 2.4vh;
         font-weight: 800;
         padding-top: 0.2rem;
+    }
+    h3{
+        line-height: 1;
     }
 
 }
