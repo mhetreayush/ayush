@@ -198,7 +198,7 @@ justify-content: center;
 }
 
 #achievements h6,h3{
-    line-height: 0.5;
+    line-height: 1;
 }
 #achievements h6{
     text-decoration: underline solid #ca443b;
